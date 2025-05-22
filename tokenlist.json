@@ -9,15 +9,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
-    },
-    {
-      "chainId": 0,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Bitcoin",
-      "symbol": "BTC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/btc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 1,
@@ -25,7 +17,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 1,
@@ -33,7 +25,7 @@
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/dai-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/dai-logo.png"
     },
     {
       "chainId": 1,
@@ -41,7 +33,7 @@
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/weth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png"
     },
     {
       "chainId": 1,
@@ -49,7 +41,7 @@
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/wbtc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/wbtc-logo.png"
     },
     {
       "chainId": 1,
@@ -57,7 +49,15 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/eth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png"
+    },
+    {
+      "chainId": 0,
+      "address": "0x0000000000000000000000000000000000000000",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/btc-logo.png"
     },
     {
       "chainId": 56,
@@ -65,7 +65,7 @@
       "name": "Tether USD (BSC)",
       "symbol": "USDT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 56,
@@ -73,7 +73,7 @@
       "name": "USD Coin (BSC)",
       "symbol": "USDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 56,
@@ -81,7 +81,7 @@
       "name": "Wrapped BNB",
       "symbol": "WBNB",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/bnb-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bnb-logo.png"
     },
     {
       "chainId": 56,
@@ -89,7 +89,7 @@
       "name": "Binance Coin",
       "symbol": "BNB",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/bnb-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bnb-logo.png"
     },
     {
       "chainId": 137,
@@ -97,7 +97,7 @@
       "name": "USD Coin (Polygon)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 137,
@@ -105,7 +105,7 @@
       "name": "Tether USD (Polygon)",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 137,
@@ -113,7 +113,7 @@
       "name": "Polygon",
       "symbol": "MATIC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/matic-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/matic-logo.png"
     },
     {
       "chainId": 43114,
@@ -121,7 +121,7 @@
       "name": "Wrapped AVAX",
       "symbol": "WAVAX",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/avax-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png"
     },
     {
       "chainId": 10,
@@ -129,7 +129,7 @@
       "name": "Optimism",
       "symbol": "OP",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/op-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/op-logo.png"
     },
     {
       "chainId": 42161,
@@ -137,7 +137,7 @@
       "name": "Arbitrum",
       "symbol": "ARB",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/arb-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/arb-logo.png"
     },
     {
       "chainId": 5,
@@ -145,7 +145,7 @@
       "name": "Wrapped Ether (Goerli)",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/weth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png"
     },
     {
       "chainId": 5,
@@ -153,7 +153,7 @@
       "name": "Ether (Goerli)",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/eth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png"
     },
     {
       "chainId": 5,
@@ -161,7 +161,7 @@
       "name": "Tether USD (Goerli)",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 5,
@@ -169,7 +169,7 @@
       "name": "USD Coin (Goerli)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 11155111,
@@ -177,7 +177,7 @@
       "name": "Wrapped Ether (Sepolia)",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/weth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png"
     },
     {
       "chainId": 11155111,
@@ -185,7 +185,7 @@
       "name": "Ether (Sepolia)",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/eth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png"
     },
     {
       "chainId": 11155111,
@@ -193,7 +193,7 @@
       "name": "Tether USD (Sepolia)",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 11155111,
@@ -201,7 +201,7 @@
       "name": "USD Coin (Sepolia)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 97,
@@ -209,7 +209,7 @@
       "name": "Binance Coin (BSC Testnet)",
       "symbol": "BNB",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/bnb-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bnb-logo.png"
     },
     {
       "chainId": 97,
@@ -217,7 +217,7 @@
       "name": "Wrapped BNB (BSC Testnet)",
       "symbol": "WBNB",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/bnb-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bnb-logo.png"
     },
     {
       "chainId": 97,
@@ -225,7 +225,7 @@
       "name": "Tether USD (BSC Testnet)",
       "symbol": "USDT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 97,
@@ -233,7 +233,7 @@
       "name": "USD Coin (BSC Testnet)",
       "symbol": "USDC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 80001,
@@ -241,7 +241,7 @@
       "name": "Polygon (Mumbai)",
       "symbol": "MATIC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/matic-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/matic-logo.png"
     },
     {
       "chainId": 80001,
@@ -249,7 +249,7 @@
       "name": "USD Coin (Mumbai)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 80001,
@@ -257,7 +257,7 @@
       "name": "Tether USD (Mumbai)",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
     },
     {
       "chainId": 421613,
@@ -265,7 +265,7 @@
       "name": "Arbitrum (Goerli)",
       "symbol": "ARB",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/arb-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/arb-logo.png"
     },
     {
       "chainId": 421613,
@@ -273,7 +273,7 @@
       "name": "Ether (Arbitrum Goerli)",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/eth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png"
     },
     {
       "chainId": 421613,
@@ -281,7 +281,7 @@
       "name": "USD Coin (Arbitrum Goerli)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 420,
@@ -289,7 +289,7 @@
       "name": "Optimism (Goerli)",
       "symbol": "OP",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/op-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/op-logo.png"
     },
     {
       "chainId": 420,
@@ -297,7 +297,7 @@
       "name": "Ether (Optimism Goerli)",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/eth-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png"
     },
     {
       "chainId": 420,
@@ -305,7 +305,7 @@
       "name": "USD Coin (Optimism Goerli)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     },
     {
       "chainId": 43113,
@@ -313,7 +313,7 @@
       "name": "Wrapped AVAX (Fuji)",
       "symbol": "WAVAX",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/avax-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png"
     },
     {
       "chainId": 43113,
@@ -321,7 +321,7 @@
       "name": "Avalanche (Fuji)",
       "symbol": "AVAX",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/avax-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png"
     },
     {
       "chainId": 43113,
@@ -329,7 +329,7 @@
       "name": "USD Coin (Fuji)",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdc-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png"
     }
   ],
   "version": {
