@@ -1,7 +1,4 @@
 # trust-crypto-wallet-tokenlist
-Official token list for Trust Crypto Wallet UI - Multi-chain token metadata for secure digital asset management
-
-# trust-crypto-wallet-tokenlist
 
 Official token list for Trust Crypto Wallet UI - Multi-chain token metadata for secure digital asset management
 
@@ -13,7 +10,7 @@ This repository contains the official token list for the Trust Crypto Wallet int
 
 - `tokenlist.json` - The complete token list JSON file
 - `README.md` - This documentation file
-- `logos/` - Token logo images directory
+- Token logo images in root directory (no logos/ folder needed)
 
 ## Usage
 
@@ -99,7 +96,7 @@ Each token entry contains the following fields:
   "name": "Tether USD",
   "symbol": "USDT",
   "decimals": 6,
-  "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/logos/usdt-logo.png"
+  "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png"
 }
 ```
 
@@ -147,7 +144,7 @@ We welcome contributions to improve our token list:
    - Verify the contract `address` is accurate
    - Include proper `name`, `symbol`, and `decimals`
    - Provide a high-quality logo via `logoURI`
-3. **Add token logo** to the `logos/` directory (PNG format, 200x200px recommended)
+3. **Add token logo** to the repository root directory (PNG format, 200x200px recommended)
 4. **Test the changes** to ensure JSON validity
 5. **Submit a pull request** with a clear description
 
