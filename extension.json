@@ -1,0 +1,227 @@
+{
+  "name": "Trust Crypto Wallet Token List Extension",
+  "description": "Extension metadata and configuration for Trust Crypto Wallet token lists",
+  "version": "1.0.0",
+  "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/images/favicon.png",
+  "timestamp": "2025-06-08T10:28:29.286496Z",
+  "author": "Trust Crypto Wallet Team",
+  "homepage": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
+  "repository": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
+  "license": "MIT",
+  "keywords": [
+    "tokens",
+    "tokenlist",
+    "ethereum",
+    "bsc",
+    "polygon",
+    "arbitrum",
+    "avalanche",
+    "optimism",
+    "defi",
+    "cross-chain",
+    "wallet"
+  ],
+  "lists": {
+    "mainnet": {
+      "name": "Trust Crypto Wallet Token List - Mainnet Edition",
+      "version": "2.0.0",
+      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist-mainnet.json",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/images/favicon.png",
+      "description": "Production-ready mainnet tokens for Trust Crypto Wallet",
+      "tags": ["mainnet", "production"],
+      "tokenCount": 23,
+      "networks": [
+        {
+          "chainId": 1,
+          "name": "Ethereum",
+          "tokenCount": 8
+        },
+        {
+          "chainId": 56,
+          "name": "BNB Smart Chain",
+          "tokenCount": 3
+        },
+        {
+          "chainId": 137,
+          "name": "Polygon",
+          "tokenCount": 3
+        },
+        {
+          "chainId": 42161,
+          "name": "Arbitrum One",
+          "tokenCount": 2
+        },
+        {
+          "chainId": 43114,
+          "name": "Avalanche",
+          "tokenCount": 2
+        },
+        {
+          "chainId": 10,
+          "name": "Optimism",
+          "tokenCount": 2
+        },
+        {
+          "chainId": 0,
+          "name": "Bitcoin",
+          "tokenCount": 1
+        }
+      ]
+    },
+    "testnet": {
+      "name": "Trust Crypto Wallet Token List - Testnet Edition",
+      "version": "2.0.0",
+      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist-testnet.json",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/images/favicon.png",
+      "description": "Development and testing tokens for Trust Crypto Wallet",
+      "tags": ["testnet", "development"],
+      "tokenCount": 20,
+      "networks": [
+        {
+          "chainId": 5,
+          "name": "Goerli",
+          "tokenCount": 3
+        },
+        {
+          "chainId": 11155111,
+          "name": "Sepolia",
+          "tokenCount": 3
+        },
+        {
+          "chainId": 97,
+          "name": "BSC Testnet",
+          "tokenCount": 3
+        },
+        {
+          "chainId": 80001,
+          "name": "Mumbai",
+          "tokenCount": 3
+        },
+        {
+          "chainId": 421613,
+          "name": "Arbitrum Goerli",
+          "tokenCount": 2
+        },
+        {
+          "chainId": 421614,
+          "name": "Arbitrum Sepolia",
+          "tokenCount": 1
+        },
+        {
+          "chainId": 43113,
+          "name": "Fuji",
+          "tokenCount": 2
+        },
+        {
+          "chainId": 420,
+          "name": "Optimism Goerli",
+          "tokenCount": 2
+        },
+        {
+          "chainId": 11155420,
+          "name": "Optimism Sepolia",
+          "tokenCount": 1
+        }
+      ]
+    }
+  },
+  "assets": {
+    "logos": {
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
+      "format": "png",
+      "size": "64x64",
+      "files": [
+        "aave-logo.png",
+        "arb-logo.png",
+        "avax-logo.png",
+        "bnb-logo.png",
+        "btc-logo.png",
+        "dai-logo.png",
+        "eth-logo.png",
+        "matic-logo.png",
+        "op-logo.png",
+        "scanning.png",
+        "tst-logo.png",
+        "uni-logo.png",
+        "unknown-token.png",
+        "usdc-logo.png",
+        "usdt-logo.png",
+        "wbtc-logo.png",
+        "weth-logo.png"
+      ]
+    },
+    "icons": {
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/images/",
+      "format": "png",
+      "files": [
+        "favicon.png"
+      ]
+    }
+  },
+  "compatibility": {
+    "walletStructure": {
+      "version": "33",
+      "components": [
+        "TokenListProvider.js",
+        "MetadataFetcher.js",
+        "LogoManager.js",
+        "TokenRegistry.js",
+        "TokenScanner.ts",
+        "PriceCalculator.js"
+      ]
+    },
+    "standards": [
+      "ERC-20",
+      "Native Tokens",
+      "Wrapped Tokens"
+    ],
+    "bridgeProtocols": [
+      "LayerZero",
+      "Axelar",
+      "Wormhole",
+      "Chainlink CCIP",
+      "Hyperlane"
+    ]
+  },
+  "features": {
+    "tokenScanning": {
+      "remixIntegration": true,
+      "automaticDetection": true,
+      "crossChainSupport": true
+    },
+    "priceCalculation": {
+      "dexIntegration": true,
+      "chainlinkFeeds": true,
+      "thirdPartyAPIs": false
+    },
+    "logoManagement": {
+      "onChainSVG": true,
+      "remoteImages": true,
+      "fallbackImages": true
+    }
+  },
+  "configuration": {
+    "updateFrequency": "daily",
+    "cacheStrategy": "aggressive",
+    "fallbackBehavior": "graceful",
+    "securityLevel": "high"
+  },
+  "integrationGuide": {
+    "installation": "npm install @trust-crypto-wallet/tokenlist",
+    "usage": "import { TokenListProvider } from '@trust-crypto-wallet/tokenlist'",
+    "documentation": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/blob/main/README.md"
+  },
+  "support": {
+    "issues": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/issues",
+    "discussions": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/discussions",
+    "security": "security@trust-crypto-wallet.com"
+  },
+  "analytics": {
+    "totalTokens": 43,
+    "mainnetTokens": 23,
+    "testnetTokens": 20,
+    "supportedChains": 16,
+    "logosCovered": 17,
+    "lastUpdated": "2025-06-08T10:28:29.286496Z"
+  }
+}
