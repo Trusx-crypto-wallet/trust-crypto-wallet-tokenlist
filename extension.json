@@ -1,9 +1,9 @@
 {
   "name": "Trust Crypto Wallet Token List Extension",
-  "description": "Extension metadata and configuration for Trust Crypto Wallet token lists",
+  "description": "Token list metadata and configuration for Trust Crypto Wallet",
   "version": "1.0.0",
   "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
-  "timestamp": "2025-06-08T10:28:29.286496Z",
+  "timestamp": "2025-06-10T12:00:00.000Z",
   "author": "Trust Crypto Wallet Team",
   "homepage": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
   "repository": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
@@ -17,110 +17,156 @@
     "arbitrum",
     "avalanche",
     "optimism",
+    "bitcoin",
     "defi",
-    "cross-chain",
-    "wallet"
+    "cross-chain"
   ],
   "lists": {
     "mainnet": {
       "name": "Trust Crypto Wallet Token List - Mainnet Edition",
       "version": "2.0.0",
-      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist-mainnet.json",
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist-mainnet.json",
+      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist.json",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
       "description": "Production-ready mainnet tokens for Trust Crypto Wallet",
       "tags": ["mainnet", "production"],
-      "tokenCount": 23,
+      "tokenCount": 27,
       "networks": [
         {
           "chainId": 1,
           "name": "Ethereum",
-          "tokenCount": 8
+          "tokenCount": 9,
+          "rpcUrl": "https://ethereum-rpc.publicnode.com/",
+          "blockExplorer": "https://etherscan.io",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          }
         },
         {
           "chainId": 56,
           "name": "BNB Smart Chain",
-          "tokenCount": 3
+          "tokenCount": 5,
+          "rpcUrl": "https://bsc-rpc.publicnode.com/",
+          "blockExplorer": "https://bscscan.com",
+          "nativeCurrency": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18
+          }
         },
         {
           "chainId": 137,
           "name": "Polygon",
-          "tokenCount": 3
+          "tokenCount": 4,
+          "rpcUrl": "https://polygon-bor-rpc.publicnode.com/",
+          "blockExplorer": "https://polygonscan.com",
+          "nativeCurrency": {
+            "name": "MATIC",
+            "symbol": "MATIC",
+            "decimals": 18
+          }
         },
         {
           "chainId": 42161,
           "name": "Arbitrum One",
-          "tokenCount": 2
+          "tokenCount": 3,
+          "rpcUrl": "https://arbitrum-one-rpc.publicnode.com/",
+          "blockExplorer": "https://arbiscan.io",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          }
         },
         {
           "chainId": 43114,
           "name": "Avalanche",
-          "tokenCount": 2
+          "tokenCount": 3,
+          "rpcUrl": "https://avalanche-c-chain-rpc.publicnode.com/",
+          "blockExplorer": "https://snowtrace.io",
+          "nativeCurrency": {
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18
+          }
         },
         {
           "chainId": 10,
           "name": "Optimism",
-          "tokenCount": 2
+          "tokenCount": 3,
+          "rpcUrl": "https://optimism-rpc.publicnode.com/",
+          "blockExplorer": "https://optimistic.etherscan.io",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          }
         },
         {
-          "chainId": 0,
+          "chainId": 8332,
           "name": "Bitcoin",
-          "tokenCount": 1
+          "tokenCount": 1,
+          "rpcUrl": "https://bitcoin-mainnet.chainstacklabs.com",
+          "blockExplorer": "https://blockstream.info",
+          "nativeCurrency": {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "decimals": 8
+          }
         }
       ]
     },
     "testnet": {
       "name": "Trust Crypto Wallet Token List - Testnet Edition",
       "version": "2.0.0",
-      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist-testnet.json",
+      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/testnet.json",
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
       "description": "Development and testing tokens for Trust Crypto Wallet",
       "tags": ["testnet", "development"],
-      "tokenCount": 20,
+      "tokenCount": 22,
       "networks": [
-        {
-          "chainId": 5,
-          "name": "Goerli",
-          "tokenCount": 3
-        },
         {
           "chainId": 11155111,
           "name": "Sepolia",
-          "tokenCount": 3
+          "tokenCount": 3,
+          "rpcUrl": "https://ethereum-sepolia-rpc.publicnode.com/",
+          "blockExplorer": "https://sepolia.etherscan.io"
         },
         {
           "chainId": 97,
           "name": "BSC Testnet",
-          "tokenCount": 3
+          "tokenCount": 3,
+          "rpcUrl": "https://bsc-testnet-rpc.publicnode.com/",
+          "blockExplorer": "https://testnet.bscscan.com"
         },
         {
-          "chainId": 80001,
-          "name": "Mumbai",
-          "tokenCount": 3
-        },
-        {
-          "chainId": 421613,
-          "name": "Arbitrum Goerli",
-          "tokenCount": 2
+          "chainId": 80002,
+          "name": "Polygon Amoy",
+          "tokenCount": 3,
+          "rpcUrl": "https://polygon-amoy-bor-rpc.publicnode.com/",
+          "blockExplorer": "https://amoy.polygonscan.com"
         },
         {
           "chainId": 421614,
           "name": "Arbitrum Sepolia",
-          "tokenCount": 1
+          "tokenCount": 3,
+          "rpcUrl": "https://arbitrum-sepolia-rpc.publicnode.com/",
+          "blockExplorer": "https://sepolia.arbiscan.io"
         },
         {
           "chainId": 43113,
           "name": "Fuji",
-          "tokenCount": 2
-        },
-        {
-          "chainId": 420,
-          "name": "Optimism Goerli",
-          "tokenCount": 2
+          "tokenCount": 2,
+          "rpcUrl": "https://avalanche-fuji-c-chain-rpc.publicnode.com/",
+          "blockExplorer": "https://testnet.snowtrace.io"
         },
         {
           "chainId": 11155420,
           "name": "Optimism Sepolia",
-          "tokenCount": 1
+          "tokenCount": 2,
+          "rpcUrl": "https://optimism-sepolia-rpc.publicnode.com/",
+          "blockExplorer": "https://sepolia-optimism.etherscan.io"
         }
       ]
     }
@@ -151,37 +197,37 @@
       ]
     },
     "icons": {
-      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/images/",
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
       "format": "png",
+      "size": "64x64",
       "files": [
-        "favicon.png"
-      ]
-    }
-  },
-  "compatibility": {
-    "walletStructure": {
-      "version": "33",
-      "components": [
-        "TokenListProvider.js",
-        "MetadataFetcher.js",
-        "LogoManager.js",
-        "TokenRegistry.js",
-        "TokenScanner.ts",
-        "PriceCalculator.js"
+        "favicon.png",
+        "send.png",
+        "receive.png",
+        "swap.png",
+        "bridge.png",
+        "scan.png",
+        "refresh.png"
       ]
     },
-    "standards": [
-      "ERC-20",
-      "Native Tokens",
-      "Wrapped Tokens"
-    ],
-    "bridgeProtocols": [
-      "LayerZero",
-      "Axelar",
-      "Wormhole",
-      "Chainlink CCIP",
-      "Hyperlane"
-    ]
+    "bridges": {
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bridges/",
+      "format": "png",
+      "size": "64x64",
+      "files": [
+        "layerzero-64.png",
+        "axelar-64.png",
+        "wormhole-64.png",
+        "chainlink-64.png",
+        "hyperlane-64.png",
+        "across-bridge-64.png",
+        "arbitrum-bridge-64.png",
+        "hop-protocol-64.png",
+        "multichain-64.png",
+        "optimism-bridge-64.png",
+        "polygon-bridge-64.png"
+      ]
+    }
   },
   "features": {
     "tokenScanning": {
@@ -200,28 +246,12 @@
       "fallbackImages": true
     }
   },
-  "configuration": {
-    "updateFrequency": "daily",
-    "cacheStrategy": "aggressive",
-    "fallbackBehavior": "graceful",
-    "securityLevel": "high"
-  },
-  "integrationGuide": {
-    "installation": "npm install @trust-crypto-wallet/tokenlist",
-    "usage": "import { TokenListProvider } from '@trust-crypto-wallet/tokenlist'",
-    "documentation": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/blob/main/README.md"
-  },
-  "support": {
-    "issues": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/issues",
-    "discussions": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/discussions",
-    "security": "security@trust-crypto-wallet.com"
-  },
   "analytics": {
-    "totalTokens": 43,
-    "mainnetTokens": 23,
-    "testnetTokens": 20,
-    "supportedChains": 16,
+    "totalTokens": 27,
+    "mainnetTokens": 27,
+    "testnetTokens": 22,
+    "supportedChains": 13,
     "logosCovered": 17,
-    "lastUpdated": "2025-06-08T10:28:29.286496Z"
+    "lastUpdated": "2025-06-10T12:00:00.000Z"
   }
 }
