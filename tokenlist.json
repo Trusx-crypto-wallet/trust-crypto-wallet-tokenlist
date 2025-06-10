@@ -1,7 +1,7 @@
 {
   "name": "Trust Crypto Wallet Token List - Mainnet Edition",
   "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
-  "timestamp": "2025-06-08T10:28:29.286496Z",
+  "timestamp": "2025-06-10T12:00:00.000Z",
   "keywords": ["tokens", "mainnet", "defi", "wallet"],
   "tokens": [
     {
@@ -193,6 +193,42 @@
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/btc-logo.png",
       "tags": ["native", "mainnet"],
       "note": "Uses ChainList.org community standard for Bitcoin"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000000000000000000000000000000000001",
+      "name": "Test Token",
+      "symbol": "TST",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tst-logo.png",
+      "tags": ["test", "mainnet"]
+    },
+    {
+      "chainId": 56,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
+      "tags": ["stablecoin", "mainnet"]
+    },
+    {
+      "chainId": 137,
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/dai-logo.png",
+      "tags": ["stablecoin", "mainnet"]
+    },
+    {
+      "chainId": 42161,
+      "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
+      "tags": ["stablecoin", "mainnet"]
     }
   ],
   "version": {
