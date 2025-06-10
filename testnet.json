@@ -1,193 +1,257 @@
 {
-  "name": "Trust Crypto Wallet Token List - Testnet Edition",
+  "name": "Trust Crypto Wallet Token List Extension",
+  "description": "Token list metadata and configuration for Trust Crypto Wallet",
+  "version": "1.0.0",
   "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
-  "timestamp": "2025-06-08T10:28:29.286496Z",
-  "keywords": ["tokens", "testnet", "development", "wallet"],
-  "tokens": [
-    {
-      "chainId": 5,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Goerli Ether",
-      "symbol": "GoerliETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 5,
-      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 5,
-      "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
-      "tags": ["stablecoin", "testnet"]
-    },
-    {
-      "chainId": 11155111,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Sepolia Ether",
-      "symbol": "SepoliaETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/eth-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 11155111,
-      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 11155111,
-      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
-      "tags": ["stablecoin", "testnet"]
-    },
-    {
-      "chainId": 97,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Binance Smart Chain Testnet",
-      "symbol": "tBNB",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bnb-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 97,
-      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
-      "name": "Wrapped BNB",
-      "symbol": "WBNB",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bnb-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 97,
-      "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdt-logo.png",
-      "tags": ["stablecoin", "testnet"]
-    },
-    {
-      "chainId": 80001,
-      "address": "0x0000000000000000000000000000000000001010",
-      "name": "Mumbai Matic",
-      "symbol": "MATIC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/matic-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 80001,
-      "address": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
-      "name": "Wrapped Matic",
-      "symbol": "WMATIC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/matic-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 80001,
-      "address": "0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e",
-      "name": "Test Token",
-      "symbol": "TST",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tst-logo.png",
-      "tags": ["test", "testnet"]
-    },
-    {
-      "chainId": 421613,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Arbitrum Goerli Ether",
-      "symbol": "ArbGoerliETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/arb-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 421613,
-      "address": "0xe39Ab88f8A4777030A534146A9Ca3B52bd5D43A3",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 421614,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Arbitrum Sepolia Ether",
-      "symbol": "ArbSepoliaETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/arb-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 43113,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Avalanche Fuji",
-      "symbol": "AVAX",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 43113,
-      "address": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
-      "name": "Wrapped AVAX",
-      "symbol": "WAVAX",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 420,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Optimism Goerli Ether",
-      "symbol": "OpGoerliETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/op-logo.png",
-      "tags": ["native", "testnet"]
-    },
-    {
-      "chainId": 420,
-      "address": "0x4200000000000000000000000000000000000006",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/weth-logo.png",
-      "tags": ["wrapped", "testnet"]
-    },
-    {
-      "chainId": 11155420,
-      "address": "0x0000000000000000000000000000000000000000",
-      "name": "Optimism Sepolia Ether",
-      "symbol": "OpSepoliaETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/op-logo.png",
-      "tags": ["native", "testnet"]
-    }
+  "timestamp": "2025-06-10T12:00:00.000Z",
+  "author": "Trust Crypto Wallet Team",
+  "homepage": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
+  "repository": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
+  "license": "MIT",
+  "keywords": [
+    "tokens",
+    "tokenlist",
+    "ethereum",
+    "bsc",
+    "polygon",
+    "arbitrum",
+    "avalanche",
+    "optimism",
+    "bitcoin",
+    "defi",
+    "cross-chain"
   ],
-  "version": {
-    "major": 2,
-    "minor": 0,
-    "patch": 0
+  "lists": {
+    "mainnet": {
+      "name": "Trust Crypto Wallet Token List - Mainnet Edition",
+      "version": "2.0.0",
+      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist.json",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
+      "description": "Production-ready mainnet tokens for Trust Crypto Wallet",
+      "tags": ["mainnet", "production"],
+      "tokenCount": 27,
+      "networks": [
+        {
+          "chainId": 1,
+          "name": "Ethereum",
+          "tokenCount": 9,
+          "rpcUrl": "https://ethereum-rpc.publicnode.com/",
+          "blockExplorer": "https://etherscan.io",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          }
+        },
+        {
+          "chainId": 56,
+          "name": "BNB Smart Chain",
+          "tokenCount": 5,
+          "rpcUrl": "https://bsc-rpc.publicnode.com/",
+          "blockExplorer": "https://bscscan.com",
+          "nativeCurrency": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18
+          }
+        },
+        {
+          "chainId": 137,
+          "name": "Polygon",
+          "tokenCount": 4,
+          "rpcUrl": "https://polygon-bor-rpc.publicnode.com/",
+          "blockExplorer": "https://polygonscan.com",
+          "nativeCurrency": {
+            "name": "MATIC",
+            "symbol": "MATIC",
+            "decimals": 18
+          }
+        },
+        {
+          "chainId": 42161,
+          "name": "Arbitrum One",
+          "tokenCount": 3,
+          "rpcUrl": "https://arbitrum-one-rpc.publicnode.com/",
+          "blockExplorer": "https://arbiscan.io",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          }
+        },
+        {
+          "chainId": 43114,
+          "name": "Avalanche",
+          "tokenCount": 3,
+          "rpcUrl": "https://avalanche-c-chain-rpc.publicnode.com/",
+          "blockExplorer": "https://snowtrace.io",
+          "nativeCurrency": {
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18
+          }
+        },
+        {
+          "chainId": 10,
+          "name": "Optimism",
+          "tokenCount": 3,
+          "rpcUrl": "https://optimism-rpc.publicnode.com/",
+          "blockExplorer": "https://optimistic.etherscan.io",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          }
+        },
+        {
+          "chainId": 8332,
+          "name": "Bitcoin",
+          "tokenCount": 1,
+          "rpcUrl": "https://bitcoin-mainnet.chainstacklabs.com",
+          "blockExplorer": "https://blockstream.info",
+          "nativeCurrency": {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "decimals": 8
+          }
+        }
+      ]
+    },
+    "testnet": {
+      "name": "Trust Crypto Wallet Token List - Testnet Edition",
+      "version": "2.0.0",
+      "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/testnet.json",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
+      "description": "Development and testing tokens for Trust Crypto Wallet",
+      "tags": ["testnet", "development"],
+      "tokenCount": 22,
+      "networks": [
+        {
+          "chainId": 11155111,
+          "name": "Sepolia",
+          "tokenCount": 3,
+          "rpcUrl": "https://ethereum-sepolia-rpc.publicnode.com/",
+          "blockExplorer": "https://sepolia.etherscan.io"
+        },
+        {
+          "chainId": 97,
+          "name": "BSC Testnet",
+          "tokenCount": 3,
+          "rpcUrl": "https://bsc-testnet-rpc.publicnode.com/",
+          "blockExplorer": "https://testnet.bscscan.com"
+        },
+        {
+          "chainId": 80002,
+          "name": "Polygon Amoy",
+          "tokenCount": 3,
+          "rpcUrl": "https://polygon-amoy-bor-rpc.publicnode.com/",
+          "blockExplorer": "https://amoy.polygonscan.com"
+        },
+        {
+          "chainId": 421614,
+          "name": "Arbitrum Sepolia",
+          "tokenCount": 3,
+          "rpcUrl": "https://arbitrum-sepolia-rpc.publicnode.com/",
+          "blockExplorer": "https://sepolia.arbiscan.io"
+        },
+        {
+          "chainId": 43113,
+          "name": "Fuji",
+          "tokenCount": 2,
+          "rpcUrl": "https://avalanche-fuji-c-chain-rpc.publicnode.com/",
+          "blockExplorer": "https://testnet.snowtrace.io"
+        },
+        {
+          "chainId": 11155420,
+          "name": "Optimism Sepolia",
+          "tokenCount": 2,
+          "rpcUrl": "https://optimism-sepolia-rpc.publicnode.com/",
+          "blockExplorer": "https://sepolia-optimism.etherscan.io"
+        }
+      ]
+    }
+  },
+  "assets": {
+    "logos": {
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
+      "format": "png",
+      "size": "64x64",
+      "files": [
+        "aave-logo.png",
+        "arb-logo.png",
+        "avax-logo.png",
+        "bnb-logo.png",
+        "btc-logo.png",
+        "dai-logo.png",
+        "eth-logo.png",
+        "matic-logo.png",
+        "op-logo.png",
+        "scanning.png",
+        "tst-logo.png",
+        "uni-logo.png",
+        "unknown-token.png",
+        "usdc-logo.png",
+        "usdt-logo.png",
+        "wbtc-logo.png",
+        "weth-logo.png"
+      ]
+    },
+    "icons": {
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
+      "format": "png",
+      "size": "64x64",
+      "files": [
+        "favicon.png",
+        "send.png",
+        "receive.png",
+        "swap.png",
+        "bridge.png",
+        "scan.png",
+        "refresh.png"
+      ]
+    },
+    "bridges": {
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bridges/",
+      "format": "png",
+      "size": "64x64",
+      "files": [
+        "layerzero-64.png",
+        "axelar-64.png",
+        "wormhole-64.png",
+        "chainlink-64.png",
+        "hyperlane-64.png",
+        "across-bridge-64.png",
+        "arbitrum-bridge-64.png",
+        "hop-protocol-64.png",
+        "multichain-64.png",
+        "optimism-bridge-64.png",
+        "polygon-bridge-64.png"
+      ]
+    }
+  },
+  "features": {
+    "tokenScanning": {
+      "remixIntegration": true,
+      "automaticDetection": true,
+      "crossChainSupport": true
+    },
+    "priceCalculation": {
+      "dexIntegration": true,
+      "chainlinkFeeds": true,
+      "thirdPartyAPIs": false
+    },
+    "logoManagement": {
+      "onChainSVG": true,
+      "remoteImages": true,
+      "fallbackImages": true
+    }
+  },
+  "analytics": {
+    "totalTokens": 42,
+    "mainnetTokens": 27,
+    "testnetTokens": 15,
+    "supportedChains": 13,
+    "logosCovered": 17,
+    "lastUpdated": "2025-06-10T12:00:00.000Z"
   }
 }
