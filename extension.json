@@ -72,7 +72,7 @@
       "name": "Trust Crypto Wallet Token List - Testnet Edition",
       "version": "2.0.0",
       "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist-testnet.json",
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/images/favicon.png",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
       "description": "Development and testing tokens for Trust Crypto Wallet",
       "tags": ["testnet", "development"],
       "tokenCount": 20,
