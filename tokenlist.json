@@ -185,31 +185,14 @@
       "tags": ["wrapped", "mainnet"]
     },
     {
-      "chainId": 0,
+      "chainId": 8332,
       "address": "0x0000000000000000000000000000000000000000",
       "name": "Bitcoin",
       "symbol": "BTC",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/btc-logo.png",
-      "tags": ["native", "mainnet"]
-    },
-    {
-      "chainId": 0,
-      "address": "0x000000000000000000000000000000000000dead",
-      "name": "Unknown Token",
-      "symbol": "UNKNOWN",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/unknown-token.png",
-      "tags": ["placeholder"]
-    },
-    {
-      "chainId": 0,
-      "address": "0x000000000000000000000000000000000000cafe",
-      "name": "Scanning Token",
-      "symbol": "SCANNING",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/scanning.png",
-      "tags": ["placeholder"]
+      "tags": ["native", "mainnet"],
+      "note": "Uses ChainList.org community standard for Bitcoin"
     }
   ],
   "version": {
