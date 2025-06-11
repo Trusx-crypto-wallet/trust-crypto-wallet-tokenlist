@@ -199,7 +199,7 @@
     "icons": {
       "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
       "format": "png",
-      "size": "64x64",
+      "size": "32x32",
       "files": [
         "favicon.png",
         "send.png",
