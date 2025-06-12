@@ -1,8 +1,8 @@
 {
   "name": "Trust Crypto Wallet Token List - Mainnet Edition",
   "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
-  "timestamp": "2025-06-10T12:00:00.000Z",
-  "keywords": ["tokens", "mainnet", "defi", "wallet"],
+  "timestamp": "2025-06-12T12:00:00.000Z",
+  "keywords": ["tokens", "mainnet", "defi", "wallet", "bridges", "cross-chain"],
   "tokens": [
     {
       "chainId": 1,
@@ -104,6 +104,15 @@
       "tags": ["stablecoin", "mainnet"]
     },
     {
+      "chainId": 56,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
+      "tags": ["stablecoin", "mainnet"]
+    },
+    {
       "chainId": 137,
       "address": "0x0000000000000000000000000000000000001010",
       "name": "Polygon",
@@ -131,6 +140,15 @@
       "tags": ["stablecoin", "mainnet"]
     },
     {
+      "chainId": 137,
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/dai-logo.png",
+      "tags": ["stablecoin", "mainnet"]
+    },
+    {
       "chainId": 42161,
       "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
       "name": "Arbitrum",
@@ -149,13 +167,13 @@
       "tags": ["wrapped", "mainnet"]
     },
     {
-      "chainId": 43114,
-      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-      "name": "Wrapped AVAX",
-      "symbol": "WAVAX",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png",
-      "tags": ["wrapped", "mainnet"]
+      "chainId": 42161,
+      "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
+      "tags": ["stablecoin", "mainnet"]
     },
     {
       "chainId": 43114,
@@ -165,6 +183,15 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png",
       "tags": ["native", "mainnet"]
+    },
+    {
+      "chainId": 43114,
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "name": "Wrapped AVAX",
+      "symbol": "WAVAX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/avax-logo.png",
+      "tags": ["wrapped", "mainnet"]
     },
     {
       "chainId": 10,
@@ -185,55 +212,142 @@
       "tags": ["wrapped", "mainnet"]
     },
     {
-      "chainId": 8332,
+      "chainId": 0,
       "address": "0x0000000000000000000000000000000000000000",
       "name": "Bitcoin",
       "symbol": "BTC",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/btc-logo.png",
       "tags": ["native", "mainnet"],
-      "note": "Uses ChainList.org community standard for Bitcoin"
-    },
-    {
-      "chainId": 1,
-      "address": "0x0000000000000000000000000000000000000001",
-      "name": "Test Token",
-      "symbol": "TST",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tst-logo.png",
-      "tags": ["test", "mainnet"]
-    },
-    {
-      "chainId": 56,
-      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
-      "tags": ["stablecoin", "mainnet"]
-    },
-    {
-      "chainId": 137,
-      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/dai-logo.png",
-      "tags": ["stablecoin", "mainnet"]
-    },
-    {
-      "chainId": 42161,
-      "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/usdc-logo.png",
-      "tags": ["stablecoin", "mainnet"]
+      "note": "Standard Bitcoin chain ID"
     }
   ],
+  "bridges": [
+    {
+      "name": "LayerZero Bridge",
+      "protocol": "LayerZero",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/layerzero-bridge-64.png",
+      "description": "Cross-chain interoperability protocol",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Hyperlane Bridge",
+      "protocol": "Hyperlane",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/hyperlane-bridge-64.png",
+      "description": "Permissionless interoperability layer",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Across Protocol",
+      "protocol": "Across",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/across-bridge-64.png",
+      "description": "Fast cross-chain bridge",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Hop Protocol",
+      "protocol": "Hop",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/hop-bridge-64.png",
+      "description": "Rollup-to-rollup general token bridge",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Arbitrum Bridge",
+      "protocol": "Arbitrum",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/arbitrum-bridge-64.png",
+      "description": "Official Arbitrum L2 bridge",
+      "tags": ["bridge", "layer2"]
+    },
+    {
+      "name": "Optimism Bridge",
+      "protocol": "Optimism",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/optimism-bridge-64.png",
+      "description": "Official Optimism L2 bridge",
+      "tags": ["bridge", "layer2"]
+    },
+    {
+      "name": "Polygon Bridge",
+      "protocol": "Polygon",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/polygon-bridge-64.png",
+      "description": "Official Polygon PoS bridge",
+      "tags": ["bridge", "polygon"]
+    },
+    {
+      "name": "Wormhole Bridge",
+      "protocol": "Wormhole",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/wormhole-bridge-64.png",
+      "description": "Cross-chain communication protocol",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Axelar Bridge",
+      "protocol": "Axelar",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/axelar-bridge-64.png",
+      "description": "Universal Web3 interoperability",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Chainlink Bridge",
+      "protocol": "Chainlink CCIP",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/chainlink-bridge-64.png",
+      "description": "Cross-Chain Interoperability Protocol",
+      "tags": ["bridge", "cross-chain"]
+    },
+    {
+      "name": "Multichain Bridge",
+      "protocol": "Multichain",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/multichain-bridge-64.png",
+      "description": "Cross-chain router protocol",
+      "tags": ["bridge", "cross-chain"]
+    }
+  ],
+  "assets": {
+    "icons": [
+      {
+        "name": "Bridge",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bridge.png",
+        "description": "Bridge functionality icon"
+      },
+      {
+        "name": "Send",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/send.png",
+        "description": "Send transaction icon"
+      },
+      {
+        "name": "Receive",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/receive.png",
+        "description": "Receive transaction icon"
+      },
+      {
+        "name": "Swap",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/swap.png",
+        "description": "Token swap icon"
+      },
+      {
+        "name": "Scan",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/scan.png",
+        "description": "QR code scan icon"
+      },
+      {
+        "name": "Scanning",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/scanning.png",
+        "description": "Scanning in progress icon"
+      },
+      {
+        "name": "Refresh",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/refresh.png",
+        "description": "Refresh/reload icon"
+      },
+      {
+        "name": "Unknown Token",
+        "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/unknown-token.png",
+        "description": "Placeholder for unknown tokens"
+      }
+    ]
+  },
   "version": {
     "major": 2,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
