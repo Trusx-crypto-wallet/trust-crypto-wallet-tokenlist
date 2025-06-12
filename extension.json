@@ -1,9 +1,9 @@
 {
   "name": "Trust Crypto Wallet Token List Extension",
-  "description": "Token list metadata and configuration for Trust Crypto Wallet",
-  "version": "1.0.0",
+  "description": "Token list metadata and configuration for Trust Crypto Wallet with comprehensive asset management",
+  "version": "2.1.0",
   "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
-  "timestamp": "2025-06-10T12:00:00.000Z",
+  "timestamp": "2025-06-12T12:00:00.000Z",
   "author": "Trust Crypto Wallet Team",
   "homepage": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
   "repository": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
@@ -19,22 +19,25 @@
     "optimism",
     "bitcoin",
     "defi",
-    "cross-chain"
+    "cross-chain",
+    "bridges",
+    "wallet"
   ],
   "lists": {
     "mainnet": {
       "name": "Trust Crypto Wallet Token List - Mainnet Edition",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/tokenlist.json",
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
-      "description": "Production-ready mainnet tokens for Trust Crypto Wallet",
-      "tags": ["mainnet", "production"],
-      "tokenCount": 27,
+      "description": "Production-ready mainnet tokens with bridge protocols for Trust Crypto Wallet",
+      "tags": ["mainnet", "production", "bridges"],
+      "tokenCount": 25,
+      "bridgeCount": 11,
       "networks": [
         {
           "chainId": 1,
           "name": "Ethereum",
-          "tokenCount": 9,
+          "tokenCount": 8,
           "rpcUrl": "https://ethereum-rpc.publicnode.com/",
           "blockExplorer": "https://etherscan.io",
           "nativeCurrency": {
@@ -46,7 +49,7 @@
         {
           "chainId": 56,
           "name": "BNB Smart Chain",
-          "tokenCount": 5,
+          "tokenCount": 4,
           "rpcUrl": "https://bsc-rpc.publicnode.com/",
           "blockExplorer": "https://bscscan.com",
           "nativeCurrency": {
@@ -82,7 +85,7 @@
         {
           "chainId": 43114,
           "name": "Avalanche",
-          "tokenCount": 3,
+          "tokenCount": 2,
           "rpcUrl": "https://avalanche-c-chain-rpc.publicnode.com/",
           "blockExplorer": "https://snowtrace.io",
           "nativeCurrency": {
@@ -94,7 +97,7 @@
         {
           "chainId": 10,
           "name": "Optimism",
-          "tokenCount": 3,
+          "tokenCount": 2,
           "rpcUrl": "https://optimism-rpc.publicnode.com/",
           "blockExplorer": "https://optimistic.etherscan.io",
           "nativeCurrency": {
@@ -104,7 +107,7 @@
           }
         },
         {
-          "chainId": 8332,
+          "chainId": 0,
           "name": "Bitcoin",
           "tokenCount": 1,
           "rpcUrl": "https://bitcoin-mainnet.chainstacklabs.com",
@@ -119,7 +122,7 @@
     },
     "testnet": {
       "name": "Trust Crypto Wallet Token List - Testnet Edition",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "uri": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/testnet.json",
       "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
       "description": "Development and testing tokens for Trust Crypto Wallet",
@@ -211,47 +214,110 @@
       ]
     },
     "bridges": {
-      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/bridges/",
+      "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
       "format": "png",
       "size": "64x64",
       "files": [
-        "layerzero-64.png",
-        "axelar-64.png",
-        "wormhole-64.png",
-        "chainlink-64.png",
-        "hyperlane-64.png",
+        "layerzero-bridge-64.png",
+        "hyperlane-bridge-64.png",
         "across-bridge-64.png",
+        "hop-bridge-64.png",
         "arbitrum-bridge-64.png",
-        "hop-protocol-64.png",
-        "multichain-64.png",
         "optimism-bridge-64.png",
-        "polygon-bridge-64.png"
+        "polygon-bridge-64.png",
+        "wormhole-bridge-64.png",
+        "axelar-bridge-64.png",
+        "chainlink-bridge-64.png",
+        "multichain-bridge-64.png"
       ]
     }
   },
+  "bridgeProtocols": [
+    {
+      "name": "LayerZero",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/layerzero-bridge-64.png",
+      "description": "Cross-chain interoperability protocol",
+      "website": "https://layerzero.network",
+      "supportedChains": [1, 56, 137, 42161, 43114, 10]
+    },
+    {
+      "name": "Hyperlane",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/hyperlane-bridge-64.png",
+      "description": "Permissionless interoperability layer",
+      "website": "https://hyperlane.xyz",
+      "supportedChains": [1, 56, 137, 42161, 43114, 10]
+    },
+    {
+      "name": "Across Protocol",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/across-bridge-64.png",
+      "description": "Fast cross-chain bridge",
+      "website": "https://across.to",
+      "supportedChains": [1, 137, 42161, 10]
+    },
+    {
+      "name": "Hop Protocol",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/hop-bridge-64.png",
+      "description": "Rollup-to-rollup general token bridge",
+      "website": "https://hop.exchange",
+      "supportedChains": [1, 137, 42161, 10]
+    },
+    {
+      "name": "Wormhole",
+      "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/wormhole-bridge-64.png",
+      "description": "Cross-chain communication protocol",
+      "website": "https://wormhole.com",
+      "supportedChains": [1, 56, 137, 42161, 43114, 10]
+    }
+  ],
   "features": {
     "tokenScanning": {
-      "remixIntegration": true,
+      "qrCodeSupport": true,
       "automaticDetection": true,
-      "crossChainSupport": true
+      "crossChainSupport": true,
+      "unknownTokenHandling": true
     },
     "priceCalculation": {
       "dexIntegration": true,
       "chainlinkFeeds": true,
-      "thirdPartyAPIs": false
+      "thirdPartyAPIs": false,
+      "fallbackMethods": true
     },
     "logoManagement": {
       "onChainSVG": true,
       "remoteImages": true,
-      "fallbackImages": true
+      "fallbackImages": true,
+      "unknownTokenPlaceholder": true
+    },
+    "bridgeIntegration": {
+      "crossChainSwaps": true,
+      "bridgeComparison": true,
+      "feeEstimation": true,
+      "supportedProtocols": 11
+    },
+    "walletActions": {
+      "send": true,
+      "receive": true,
+      "swap": true,
+      "bridge": true,
+      "scan": true,
+      "refresh": true
     }
   },
   "analytics": {
-    "totalTokens": 27,
-    "mainnetTokens": 27,
+    "totalTokens": 25,
+    "mainnetTokens": 25,
     "testnetTokens": 22,
     "supportedChains": 13,
     "logosCovered": 17,
-    "lastUpdated": "2025-06-10T12:00:00.000Z"
+    "bridgeProtocols": 11,
+    "actionIcons": 7,
+    "totalAssets": 35,
+    "lastUpdated": "2025-06-12T12:00:00.000Z"
+  },
+  "compatibility": {
+    "tokenListStandard": "2.1.0",
+    "ethereumImprovement": "EIP-3000",
+    "crossChainStandard": "Universal",
+    "minimumWalletVersion": "1.0.0"
   }
 }
