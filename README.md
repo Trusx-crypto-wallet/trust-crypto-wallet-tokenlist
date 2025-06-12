@@ -210,3 +210,40 @@ This token list is provided for informational purposes. Always verify token cont
 **Trust Crypto Wallet** - Your secure gateway to decentralized finance
 
 *Empowering users with safe, reliable, and user-friendly multi-chain asset management*
+
+## 🚀 PNG Asset Library
+
+This repository contains a comprehensive PNG asset collection for Trust Crypto Wallet tokenlist implementation.
+
+### 📊 Asset Overview
+- **35 total PNG files**, all standardized at 64x64 pixels
+- Comprehensive multi-chain cryptocurrency support
+- Complete wallet functionality icons
+- Cross-chain bridge protocol integration
+
+### 🪙 Token Logos (17 files)
+- **Major cryptocurrencies**: btc-logo.png, eth-logo.png, usdt-logo.png, usdc-logo.png
+- **Wrapped tokens**: weth-logo.png, wbtc-logo.png
+- **DeFi tokens**: dai-logo.png, uni-logo.png, aave-logo.png
+- **Chain tokens**: bnb-logo.png, matic-logo.png, arb-logo.png, op-logo.png, avax-logo.png
+- **Test token**: tst-logo.png
+- **Utility**: unknown-token.png, scanning.png
+
+### ⚡ Action Icons (7 files)
+- **Core functionality**: favicon.png, send.png, receive.png, swap.png
+- **Advanced features**: bridge.png, scan.png, refresh.png
+
+### 🌉 Bridge Protocols (11 files)
+- **Cross-chain infrastructure**: layerzero-bridge-64.png, hyperlane-bridge-64.png
+- **DEX bridges**: across-bridge-64.png, hop-bridge-64.png
+- **Network bridges**: arbitrum-bridge-64.png, optimism-bridge-64.png, polygon-bridge-64.png
+- **Universal bridges**: wormhole-bridge-64.png, axelar-bridge-64.png, chainlink-bridge-64.png, multichain-bridge-64.png
+
+### 🎯 Implementation Ready
+- All files follow consistent naming convention
+- Optimized for wallet UI integration
+- Supports 13+ blockchain networks
+- Production-ready asset management
+
+### 📋 Asset URLs
+All assets are accessible via:
