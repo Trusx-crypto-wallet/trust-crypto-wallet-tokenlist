@@ -178,7 +178,7 @@
     "logos": {
       "baseURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/",
       "format": "png",
-      "size": "32x32",
+      "size": "64x64",
       "files": [
         "aave-logo.png",
         "arb-logo.png",
