@@ -5,7 +5,7 @@
   "logoURI": "https://raw.githubusercontent.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist/main/favicon.png",
   "timestamp": "2025-06-12T12:00:00.000Z",
   "author": "Trust Crypto Wallet Team",
-  "homepage": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
+  "homepage": "https://trust-crypto-wallet-extension.onrender.com",
   "repository": "https://github.com/Trusx-crypto-wallet/trust-crypto-wallet-tokenlist",
   "license": "MIT",
   "keywords": [
@@ -17,7 +17,6 @@
     "arbitrum",
     "avalanche",
     "optimism",
-    "bitcoin",
     "defi",
     "cross-chain",
     "bridges",
@@ -105,18 +104,6 @@
             "symbol": "ETH",
             "decimals": 18
           }
-        },
-        {
-          "chainId": 0,
-          "name": "Bitcoin",
-          "tokenCount": 1,
-          "rpcUrl": "https://bitcoin-mainnet.chainstacklabs.com",
-          "blockExplorer": "https://blockstream.info",
-          "nativeCurrency": {
-            "name": "Bitcoin",
-            "symbol": "BTC",
-            "decimals": 8
-          }
         }
       ]
     },
@@ -184,7 +171,6 @@
         "arb-logo.png",
         "avax-logo.png",
         "bnb-logo.png",
-        "btc-logo.png",
         "dai-logo.png",
         "eth-logo.png",
         "matic-logo.png",
@@ -307,11 +293,11 @@
     "totalTokens": 25,
     "mainnetTokens": 25,
     "testnetTokens": 22,
-    "supportedChains": 13,
-    "logosCovered": 17,
+    "supportedChains": 12,
+    "logosCovered": 16,
     "bridgeProtocols": 11,
     "actionIcons": 7,
-    "totalAssets": 35,
+    "totalAssets": 34,
     "lastUpdated": "2025-06-12T12:00:00.000Z"
   },
   "compatibility": {
